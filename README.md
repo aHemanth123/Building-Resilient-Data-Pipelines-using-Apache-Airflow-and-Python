@@ -80,13 +80,10 @@ IN  airflow  UI  trigger it  and the output Saved in CSV
 
 ---
 
-### 🧠 Prediction Logic
-Random Prediction
-Generates fake predictions by randomly sampling view counts 
 
 🤖 Future Improvements
 
-Got An error for c_types other wise to use ML Model
-Store to  SQL Server
-Power BI / Tableau Visualization
-Dockerize the setup
+Got An error for c_types other wise to use ML Model        
+Store to  SQL Server     
+Power BI / Tableau Visualization            
+Dockerize the setup   
