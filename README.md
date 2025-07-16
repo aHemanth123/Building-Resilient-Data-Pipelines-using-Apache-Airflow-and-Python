@@ -38,13 +38,13 @@ This project demonstrates a complete data engineering pipeline to fetch YouTube 
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone Repository
+# 1. Clone Repository
 
 ```bash
 git clone https://github.com/your-username/youtube-trend-kafka-airflow.git
 cd youtube-trend-kafka-airflow
 ```
-### 2. Start Kafka and Zookeeper
+# 2. Start Kafka and Zookeeper
 ```
 Download Kafka from https://kafka.apache.org/downloads
 ```
@@ -57,17 +57,17 @@ bin/zookeeper-server-start.sh config/zookeeper.properties
 bin/kafka-server-start.sh config/server.properties
 ```
 
-### 3. Create Kafka Topic
+# 3. Create Kafka Topic
 ```
 bin/kafka-topics.sh --create --topic youtube_trends --bootstrap-server localhost:9092 --partiti
 ```
-### 4.Create and Activate Virtual Environment
+# 4.Create and Activate Virtual Environment
 ```
 python3 -m venv airflow_venv
 source airflow_venv/bin/activate
 
 ```
-# Start scheduler and webserver
+### Start scheduler and webserver
 ```
 airflow scheduler
 
@@ -75,14 +75,17 @@ airflow scheduler
 airflow webserver --port 8080
 
 ```
-### 5 Run The Dag in airflow and scheduled hourly 
+# 5. Run The Dag 
+IN  airflow  UI  trigger it  and the output Saved in CSV
 
+---
 
 ### 🧠 Prediction Logic
 Random Prediction
 Generates fake predictions by randomly sampling view counts 
 
 🤖 Future Improvements
+
 Got An error for c_types other wise to use ML Model
 Store to  SQL Server
 Power BI / Tableau Visualization
