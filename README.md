@@ -80,10 +80,13 @@ IN  airflow  UI  trigger it  and the output Saved in CSV
 
 ---
 
+###  Used Linear Regression Model to predict views based on likes 
+
+
+----
 
 # 🤖 Future Improvements
-
-Got An error for c_types other wise to use ML Model        
+   
 Store to  SQL Server     
 Power BI / Tableau Visualization            
 Dockerize the setup   
